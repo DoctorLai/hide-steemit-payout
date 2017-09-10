@@ -3,7 +3,11 @@ function getChromeVersion() {
 	return raw ? parseInt(raw[2], 10) : false;
 }
 
+var manifest = chrome.runtime.getManifest();
+var app_name = manifest.name + " v" + manifest.version;
+
 document.addEventListener('DOMContentLoaded', function() {
+	document.getElementById('msg').innerHTML = "<font color=gray><I>" + app_name + "</I></font>";
 	$('select#setting').change(function() {
 	  chrome.storage.sync.set({ setting: document.getElementById("setting").selectedIndex });
 	});   

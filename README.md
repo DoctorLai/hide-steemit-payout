@@ -10,7 +10,7 @@ If you like this plugin, could you buy me a coffee? :)
 - https://chrome.google.com/webstore/detail/hide-steemit-payout/lbpcheminbfokogdnckkipdmaadldhlh
 
 # Update History
-- 10-Sept-2017 0.1 Init Release
+- 10-Sept-2017 0.12 Init Release + Bug Fixes
 
 # Other Online Tools
 - https://helloacm.com/tools/
