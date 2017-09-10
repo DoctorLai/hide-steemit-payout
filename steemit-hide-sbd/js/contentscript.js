@@ -10,7 +10,7 @@
 				e[i].innerHTML = 'XXX';
 			}
 		}		
-		if ((data == null) || (data.setting == 0)) {
+		if ((data != null) && (data.setting == 1)) {
 			clearPayout();
 			setInterval(clearPayout, 1000);
 		} else {
