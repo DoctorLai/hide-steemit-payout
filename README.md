@@ -16,3 +16,4 @@ If you like this plugin, could you buy me a coffee? :)
 - https://helloacm.com/tools/
 
 # Posts
+- https://steemit.com/steemdev/@justyy/hide-steemit-payout
