@@ -10,6 +10,7 @@ If you like this plugin, could you buy me a coffee? :)
 - https://chrome.google.com/webstore/detail/hide-steemit-payout/lbpcheminbfokogdnckkipdmaadldhlh
 
 # Update History
+- 18-Octo-2017 0.16 Support cnsteem.com
 - 04-Octo-2017 0.14 Hide Wallet
 - 11-Sept-2017 0.13 Default to Show
 - 10-Sept-2017 0.12 Init Release + Bug Fixes

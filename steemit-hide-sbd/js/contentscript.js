@@ -11,6 +11,7 @@
 						(url.includes("steemit.com")) || 
 						(url.includes("steemd.com")) || 
 						(url.includes("busy.org")) || 
+						(url.includes("cnsteem.com")) || 
 						(url.includes("steem")) 
 				) {
 					var e = document.querySelectorAll('span.FormattedAsset');
