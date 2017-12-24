@@ -12,6 +12,7 @@
 						(url.includes("steemd.com")) || 
 						(url.includes("busy.org")) || 
 						(url.includes("cnsteem.com")) || 
+						(url.includes("utopian.io")) || 
 						(url.includes("steem")) 
 				) {
 					var e = document.querySelectorAll('span.FormattedAsset');
@@ -22,6 +23,10 @@
 					for (var i = e.length - 1; i >= 0; -- i) {
 						e[i].innerHTML = XXX;
 					}
+					var e = document.querySelectorAll('span.Payout');
+					for (var i = e.length - 1; i >= 0; -- i) {
+						e[i].innerHTML = XXX;
+					}					
 					var e = document.querySelectorAll("a[href*=transfers]");
 					for (var i = e.length - 1; i >= 0; -- i) {
 						e[i].innerHTML = '';
