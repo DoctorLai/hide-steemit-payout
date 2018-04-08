@@ -10,9 +10,11 @@ var app_name = manifest.name + " v" + manifest.version;
 const saveSettings = () => {
     let XXX = $('#XXX').val();
     let show = $('select#show').val();
+    let rules = $('textarea#rules').val();
     let settings = {};
     settings['XXX'] = XXX;
     settings['show'] = show;
+    settings['rules'] = rules;
     chrome.storage.sync.set({ 
         hide_steem_sbd_settings: settings
     });    
@@ -39,6 +41,14 @@ document.addEventListener('DOMContentLoaded', function() {
 			} else {
 				$('select#show').val("show");
 			}
+			if (settings.rules) {
+				$('textarea#rules').val(settings.rules);
+			} else {
+				$('textarea#rules').val("");
+			}
 		}
-	}); 		
+	});
+	$("textarea#rules").keyup(function() {
+		saveSettings();
+	});
  }, false);
